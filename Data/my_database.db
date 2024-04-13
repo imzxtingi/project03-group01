@@ -1,0 +1,23 @@
+BEGIN TRANSACTION;
+CREATE TABLE "table1" (
+"col1" INTEGER,
+  "col2" TEXT
+);
+INSERT INTO "table1" VALUES(1,'a');
+INSERT INTO "table1" VALUES(2,'b');
+INSERT INTO "table1" VALUES(3,'c');
+CREATE TABLE "table2" (
+"col1" INTEGER,
+  "col2" TEXT
+);
+INSERT INTO "table2" VALUES(4,'d');
+INSERT INTO "table2" VALUES(5,'e');
+INSERT INTO "table2" VALUES(6,'f');
+CREATE TABLE "table3" (
+"col1" INTEGER,
+  "col2" TEXT
+);
+INSERT INTO "table3" VALUES(7,'g');
+INSERT INTO "table3" VALUES(8,'h');
+INSERT INTO "table3" VALUES(9,'i');
+COMMIT;
