@@ -26,7 +26,13 @@ The original dataset provided several fuel types, but we grouped them as shown b
 
 The last visualization under the "Electric Chargers in CA" heading of the same notebook is a choropleth map of the total number of electric chargers in each California county from 2020-2023.  There is a dropdown menu that will show the different choropleth maps for each year and hovering over any county will bring up tooltips that display the county name and the total number of chargers for that year. There is also a layer control button on the top right that allows the user to toggle on/off the choropleth map overlay. 
 
-The choropleth map is displayed by log scale to normalize the dataset, however the tooltip will display the actual number of electric chargers. 
+The choropleth map is displayed by log scale to normalize the dataset, however the tooltip will display the actual number of electric chargers. Also the original dataset provided totals for the following list below, however we were only interested in the total combined electric charging stations per county.  The data also does not include single-residence EV chargers. 
+- Public Level 1	
+- Shared Private Level 1
+- Public Level 2
+- Shared Private Level 2
+- Public DC Fast
+- Shared Private DC Fast
 
 
 ## Ethical Considerations
