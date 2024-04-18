@@ -1,7 +1,7 @@
 # Project 3 - Data Visualization
 
 ## About The Project
-**Overview and Purpose:** For our project, we explored the patterns in registered vehicle types and gas prices in California from 2019-2023. We examined the relationships between gas prices and electric/hybrid vehichles, the rate at which electric/hybrid vehicles have grown compared to gas powered counterparts, and how the growth of electric/hybrid vehicles have affected the number of charging stations in California. 
+**Overview and Purpose:** For our project, we explored the patterns in registered vehicle types and gas prices in California from 2019-2023. We examined the relationships between gas prices and electric/hybrid vehicles, the rate at which electric/hybrid vehicles have grown compared to gas powered counterparts, and how the growth of electric/hybrid vehicles have affected the number of charging stations in California. 
 
 The Jupyter Notebooks are broken into two files.  The file titled 'project3_database' shows the process in how we cleaned the data and loaded it into a PostgreSQL database. The second file titled 'project3_visualizations' shows all the transformations and visualizations created to analyze the data. 
 
@@ -38,7 +38,7 @@ When considering the datasets concerning California gas prices (all grades and p
 - [CA Gas and Diesel Prices](https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_sca_a.htm)
 - [CA Electric Chargers](https://www.kaggle.com/datasets/natalyamatyushenko/electric-chargers-ca)
 
-**Resources Used:** To help create our visualizations we referred to following:
+**Resources Used:** To help create our visualizations we referred to the following:
 - [Seaborn Documentation](https://seaborn.pydata.org/examples/errorband_lineplots.html)
 - [Pandas Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.unstack.html)
 - [Jupyter Widgets Documentation](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html)
