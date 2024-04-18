@@ -16,11 +16,11 @@ pip install geopandas
 **Instructions:** Under the "Fuel Types" heading of the notebook, the second visualization has a bar chart displaying Count of Vehicles By Fuel Type with a dropdown menu.  Change the dropdown menu from 2019-2023 to show the different vehicle counts by fuel type by year.  
 
 The original dataset provided several fuel types, but we grouped them as shown below:
-Gasoline - Gasoline, Flex-Fuel, Natural Gas
-Hybrid - Hybrid Gasoline, Plug-in Hybrid
-Hydrogen - Hydrogen Fuel Cell
-Electric - Battery Electric
-Diesel - Diesel and Diesel Hybrid
+- Gasoline - Gasoline, Flex-Fuel, Natural Gas
+- Hybrid - Hybrid Gasoline, Plug-in Hybrid
+- Hydrogen - Hydrogen Fuel Cell
+- Electric - Battery Electric
+- Diesel - Diesel and Diesel Hybrid
 
 The last visualization under the "Electric Chargers in CA" heading of the notebook is a choropleth map of the total number of electric chargers in each California county from 2020-2023.  There is a dropdown menu that will show the different choropleth maps for each year and hovering over any county will bring up tooltips that display the county name and the total number of chargers for that year. There is also a layer control button on the top right that allows the user to toggle on/off the choropleth map overlay. 
 
